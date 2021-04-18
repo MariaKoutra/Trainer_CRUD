@@ -1,0 +1,189 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+.anim, .anim svg {
+  position: relative;
+  width: 80%;
+  height: 100%;
+  margin: 0px 700px;
+}
+.anim path {
+  stroke-width: 2;
+}
+
+.mainBox {
+  position: absolute;
+  left: 0px;
+  top: 200px;
+}
+
+.message{
+    margin: 50px 200px;
+}
+
+.askToPress{
+  margin: 50px 285px;
+}
+
+.button {
+  background-color: #7F7CAF;
+  background-image: none;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 350px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+
+/* Specific Styling */
+.typewriter {
+  color: #fff;
+  font-size: 50px;
+  overflow: hidden;
+  margin-left: 140px;
+  white-space: nowrap;
+  animation:
+      typing 3s steps(30, end),
+      blink-caret .5s step-end infinite;
+}
+@keyframes typing {
+  from {
+      width: 0
+  }
+
+  to {
+      width: 100%
+  }
+}
+
+
+table {
+	border-collapse: collapse;
+    font-family: Tahoma, Geneva, sans-serif;
+    margin: 50px 200px;
+    overflow-y: scroll;
+    height: 40px;
+    width: 400px;
+}
+table td {
+	padding: 15px;
+}
+table thead td {
+	background-color: #54585d;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 13px;
+	border: 1px solid #54585d;
+}
+table tbody td {
+	color: #636363;
+	border: 1px solid #dddfe1;
+}
+table tbody tr {
+	background-color: #f9fafb;
+}
+table tbody tr:nth-child(odd) {
+	background-color: #ffffff;
+}
+
+.listMainBox {
+  position: absolute;
+  left: 0px;
+  top: 100px;
+}
+
+.button1 {
+  background-color: #E8EEF2;
+  background-image: none;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.backButton {
+  background-color: #7F7CAF;
+  background-image: none;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#outer
+{
+    width:100%;
+    text-align: center;
+}
+.inner
+{
+    display: inline-block;
+}
+
+.formbtn{
+  margin: -5000px 450px;
+}
+
+
+.actions{
+  display:inline-block;
+}
+
+.form-container{
+  background-color:rgb(0,18,32) ;
+  margin: 100px auto;
+  box-shadow:  -3px 0px 20px 4px black;
+}
+.con1, .con2, .con3{
+  padding: 10px 60px 10px 10px;
+  border-style: solid;
+  border-color: rgb(30,83,118);
+  border-radius: 5px;
+  background:rgba(30,83, 118, 0.5) ;
+  outline: none;
+  border-width: 2px;
+  margin-bottom: 10px;
+  transition: 500ms;
+  color:rgba(255,255, 255, 0.5);
+}
+.container{
+  padding: 70px 20px 20px 330px;
+  
+}
+
+  
+.con1:focus, .con2:focus{
+  padding: 10px 80px 10px 10px;
+  border-style: solid;
+  border-color: rgb(61,230,175);
+  border-radius: 5px;
+  background:rgba(30,83, 118, 0.5) ;
+  outline: none;
+  border-width: 2px;
+  margin-bottom: 10px;
+}
+.btn:hover{
+  background-color: rgb(30,83,118);
+  color:rgba(255,255, 255, 0.5);
+  border-color: rgb(30,83,118);
+}
